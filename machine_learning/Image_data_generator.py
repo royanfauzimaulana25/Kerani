@@ -19,7 +19,7 @@ def image_generator(train_dir, val_dir):
     # --------------------
     train_generator = train_datagen.flow_from_directory(train_dir,
                                                         batch_size = 32,
-                                                        class_mode = 'cateforical',
+                                                        class_mode = 'categorical',
                                                         target_size = (150, 150))     
     # --------------------
     # Flow validation images in batches of 20 using test_datagen generator
