@@ -1,6 +1,6 @@
 # Bangkit Team C22-PS164, Kerani (Kerabat Tani)
 
-Product Capstone Bangkit Academy 2022
+Product-based Capstone Bangkit Academy 2022
 --
 # Members:
 1. Machine Learning:
@@ -14,3 +14,12 @@ Product Capstone Bangkit Academy 2022
 3. Mobile Development:
 - Husain Ahmad Faiq (A2107F1426) - Institut Informatika Dan Bisnis Darmajaya
 - Assad All Fajar (A2425F3000) - Universitas Bandar Lampung
+
+Final Selected Themes:
+--
+Environmental Conservation, Disaster Resilience, and Climate Change
+
+Title of the Project: 
+--
+Kerani (Kerabat Tani): Fast and Easy Image-Based Plant Disease Detection Application
+
