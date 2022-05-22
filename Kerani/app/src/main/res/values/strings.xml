@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kerani</string>
+    <string name="register">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="password_hint">Masukkan Password</string>
+    <string name="password_required">Password Minimal 6 Karakter</string>
+    <string name="input_password">Masukkan Password</string>
+    <string name="password">Password</string>
+    <string name="input_email">Masukkan Email</string>
+    <string name="email">Email</string>
+    <string name="welcome">Selamat Datang!</string>
+    <string name="email_required">Email Harus Berupa Huruf, Angka, dan Simbol</string>
+    <string name="name_required">Nama Harus Diisi</string>
+    <string name="name">Nama</string>
+    <string name="input_name">Masukkan Nama</string>
+    <string name="login_desc">Sudah punya akun?</string>
+    <string name="register_desc">Belum punya akun?</string>
+</resources>
