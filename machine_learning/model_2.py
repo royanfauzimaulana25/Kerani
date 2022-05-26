@@ -5,7 +5,6 @@ import numpy as np
 import tensorflow as tf
 from tensorflow import keras
 import matplotlib.pyplot as plt
-from IPython.display import clear_output
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, array_to_img
 
 train_dir = "train_val_dir/train"
