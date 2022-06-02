@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Kerani</string>
+    <string name="welcome">Selamat Datang!</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="email">Email</string>
+    <string name="input_email">Masukkan Email</string>
+    <string name="password">Password</string>
+    <string name="login">Masuk</string>
+    <string name="register_desc">Belum punya akun?</string>
+    <string name="register">Daftar</string>
+    <string name="email_required">Masukkan Email</string>
+    <string name="password_required">Password Minimal 6 Karakter</string>
+    <string name="password_hint">Masukkan Password</string>
+    <string name="login_desc">Sudah punya akun?</string>
+    <string name="logout">Keluar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="permission_denied">Tidak Mendapatkan Izin</string>
+    <string name="settings">Pengaturan</string>
+    <string name="phone">Phone</string>
+    <string name="save">Save</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="logout_success">Berhasil Keluar</string>
+    <string name="menu_edit">Edit Profile</string>
+    <string name="menu_theme">Dark Mode</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_history">History</string>
+</resources>
