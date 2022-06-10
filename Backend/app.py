@@ -8,12 +8,12 @@ from flask import Flask, request
 app = Flask(__name__)
 
 
-#KONEKSI KE FIREBASE
+#CONNECTION TO FIREBASE
 cred = credentials.Certificate('fbAdminConfig.json')
 firebase = firebase_admin.initialize_app(cred)
 pb = pyrebase.initialize_app(json.load(open('fbconfig.json')))
 
-#REGISTRASI AKUN
+#ACCOUNT REGISTRATION
 @app.route('/register',methods=['POST'])
 def register():
     email = request.get_json()['email']
@@ -27,7 +27,7 @@ def register():
     except:
         return {'msg':'Email Sudah Ada'},400
 
-#LOGIN AKUN
+#ACCOUNT LOGIN
 @app.route("/login" ,methods=["POST"])
 def login():
     email = request.get_json()["email"]
