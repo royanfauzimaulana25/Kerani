@@ -62,7 +62,7 @@ Step to Replicate :
   - create
 - Create a firestore for the database 
 
-Step to Replicate : 
+Technology Used : 
 --
 - [Firebase](https://firebase.google.com)
 - [TensorFlow](https://www.tensorflow.org/lite/guide/android)
@@ -71,7 +71,6 @@ Step to Replicate :
 
 Project Resources : 
 --
-## Project Resources
 ### Budget
 Google Cloud Platform Subscription : **$200**
 
