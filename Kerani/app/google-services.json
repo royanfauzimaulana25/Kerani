@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "210425856689",
+    "project_id": "kerani-8ad2c",
+    "storage_bucket": "kerani-8ad2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210425856689:android:43da19790f529d50ee5890",
+        "android_client_info": {
+          "package_name": "academy.bangkit.kerani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210425856689-dsf82mp8cbvdcu3f8qhu6o1cenednlo1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJUzLBo6tvLu6QigqHBF1-Uap9MLYcHWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210425856689-dsf82mp8cbvdcu3f8qhu6o1cenednlo1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
