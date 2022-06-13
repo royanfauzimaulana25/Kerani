@@ -91,43 +91,43 @@ Click create firewall rule. Specified target tags and fill the source IPv4 range
 Click create VM instance. Choose to allow http. Enter the network tags that we created in the firewall rule. Then create.
 #### 3. Run command in SSH.
 ##### Update
-  sudo apt update
+  - sudo apt update
 ##### Install git
-  sudo apt install git
+  - sudo apt install git
 ##### Clone our repository
-  git clone https://github.com/Rian214/c22-ps164-kerani.git
+  - git clone https://github.com/Rian214/c22-ps164-kerani.git
 ##### Install wget downloading files from web or FTP servers
-  sudo apt install wget
+  - sudo apt install wget
 ##### Install minoconda to get python environment.
-  wget https://repo.anaconda.com/miniconda/Miniconda3-4.7.10-Linux-x86_64.sh
-  bash Miniconda3-4.7.10-Linux-x86_64.sh
+  - wget https://repo.anaconda.com/miniconda/Miniconda3-4.7.10-Linux-x86_64.sh
+  - bash Miniconda3-4.7.10-Linux-x86_64.sh
 ##### Point to your path, confirm the instalation, create, and activate the environment.
-  export PATH=/home/<your folder name>/miniconda3/bin:$PATH
-  which conda
-  conda create -n c22-ps164-kerani python=3.7
-  conda activate c22-ps164-kerani
-  conda init
+  - export PATH=/home/<your folder name>/miniconda3/bin:$PATH
+  - which conda
+  - conda create -n c22-ps164-kerani python=3.7
+  - conda activate c22-ps164-kerani
+  - conda init
 ##### Get into the directory
-  cd c22-ps164-kerani
-  cd backend
+  - cd c22-ps164-kerani
+  - cd backend
 ##### Install all the libraries
-  python3 -m pip install firebase_admin
-  python3 -m pip install pyrebase4
-  python3 -m pip install flask
-  python3 -m pip install tensorflow
-  python3 -m pip install numphy
-  python3 -m pip install image
-  python3 -m pip install keras
-  python3 -m pip install Keras-Preprocessing
-  python3 -m pip install matplotlib
-  python3 -m pip install numpy
-  python3 -m pip installpandas
-  python3 -m pip installPillow
-  python3 -m pip install requests
-  python3 -m pip install scipy==1.8.1
-  python3 -m pip install h5py
+  - python3 -m pip install firebase_admin
+  - python3 -m pip install pyrebase4
+  - python3 -m pip install flask
+  - python3 -m pip install tensorflow
+  - python3 -m pip install numphy
+  - python3 -m pip install image
+  - python3 -m pip install keras
+  - python3 -m pip install Keras-Preprocessing
+  - python3 -m pip install matplotlib
+  - python3 -m pip install numpy
+  - python3 -m pip installpandas
+  - python3 -m pip installPillow
+  - python3 -m pip install requests
+  - python3 -m pip install scipy==1.8.1
+  - python3 -m pip install h5py
 ##### Make directory for ML Model and upload ML Model
-  mkdir Asset
+  - mkdir Asset
 ##### Run the server
-  python3 app.py
+  - python3 app.py
   
