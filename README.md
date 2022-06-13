@@ -84,14 +84,14 @@ Google Cloud Platform Subscription : **$200**
 [Design](https://www.figma.com/file/j81lA9sBapgNRp8tfqKYZG/Kerani-(Kerabat-Tani)?node-id=0%3A1)
 
 ### Deployment of The Server and ML Model to Google Cloud Platform
-1. Create Firewall Rule. Navigation Menu >VPC Network >Firewall
+## 1. Create Firewall Rule. Navigation Menu >VPC Network >Firewall
 Firewall rules control incoming or outgoing traffic to an instance. Here are the steps to create firewall rule for this project.
 Click create firewall rule. Specified target tags and fill the source IPv4 ranges with 0.0.0.0/0. Specified TCP port to 8080. Then create.
-2. Create VM instance in Compute Engine. VM instance is where we deploy our server
+## 2. Create VM instance in Compute Engine. VM instance is where we deploy our server
 Click create VM instance. Choose to allow http. Enter the network tags that we created in the firewall rule. Then create.
-3. Run command in SSH.
+## 3. Run command in SSH.
   Update
-  - sudo apt update
+  sudo apt update
 - Install git
   sudo apt install git
 - Clone our repository
