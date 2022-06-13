@@ -90,8 +90,8 @@ Click create firewall rule. Specified target tags and fill the source IPv4 range
 2. Create VM instance in Compute Engine. VM instance is where we deploy our server
 Click create VM instance. Choose to allow http. Enter the network tags that we created in the firewall rule. Then create.
 3. Run command in SSH.
-- Update
-  sudo apt update
+  Update
+  - sudo apt update
 - Install git
   sudo apt install git
 - Clone our repository
