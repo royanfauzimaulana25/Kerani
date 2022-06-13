@@ -6,6 +6,7 @@ import tensorflow as tf
 from tensorflow import keras
 import matplotlib.pyplot as plt
 from tensorflow.keras.preprocessing.image import ImageDataGenerator, array_to_img
+import pathlib
 
 train_dir = "train_val_dir/train"
 val_dir =  "train_val_dir/val"
@@ -104,3 +105,33 @@ y_pred
 
 y_pred = np.argmax(y_pred, axis=1)
 print(y_pred)
+
+# Test predict image
+from google.colab import files
+from keras.preprocessing import image
+
+uploaded = files.upload()
+
+for fn in uploaded.keys():
+ 
+  # predicting images
+  path = fn
+  img = image.load_img(path, target_size=(300, 300))
+  x = image.img_to_array(img)
+  x = np.expand_dims(x, axis=0)
+
+  images = np.vstack([x])
+  classes = model.predict(images, batch_size=10)
+  print(fn)
+  print(classes)
+
+#Export Model
+export_dir = '/model_save/1'
+tf.saved_model.save(new_model, export_dir)
+
+# Convert the model to tflite
+converter = tf.lite.TFLiteConverter.from_saved_model(export_dir)
+tflite_model = converter.convert()
+
+tflite_model_file = pathlib.Path('/model_save/model.tflite')
+tflite_model_file.write_bytes(tflite_model)
