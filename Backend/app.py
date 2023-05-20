@@ -63,8 +63,8 @@ def load_image(img_path, show=False):
     return img_tensor
 
 #MODEL LOCATION
-file = "C:/Asset/v.1.0.h5"
-model=load_model("C:/Asset/v.1.0.h5") #Change Model Directory
+file = "https://storage.googleapis.com/sunlit-descent-351313/v.1.0.h5"
+model=load_model("https://storage.googleapis.com/sunlit-descent-351313/v.1.0.h5") #Change Model Directory
 
 #PREDICT
 @app.route("/predict", methods=["GET","POST"])
